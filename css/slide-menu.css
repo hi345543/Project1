@@ -5,18 +5,18 @@
     background-color: #1b1b1b
 }
 
-#slide-box #slide-image {
+#slide-image {
     width: 48px;
     height: 48px;
 }
 
-#slide-box #slide-image #slide-menu-image-active {
+#slide-menu-image-active {
     display: none;
     width: 100%;
     height: 100%;
 }
 
-#slide-box #slide-image #slide-menu-image-inactive {
+#slide-menu-image-inactive {
     width: 100%;
     height: 100%;
 }
