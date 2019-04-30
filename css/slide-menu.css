@@ -24,4 +24,6 @@
 #slide-menu-entries{
     display: block;
     color: #cfcfcf;
+    width:250px;
+    margin: 0px;
 }
