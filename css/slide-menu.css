@@ -21,7 +21,7 @@
     height: 100%;
 }
 
-#slide-menu-entries{
+.slide-menu-entries{
     display: block;
     color: #cfcfcf;
     width:250px;
