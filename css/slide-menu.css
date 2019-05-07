@@ -1,29 +1,74 @@
-#slide-box{
+#slide-menu{
     width: 250px;
     height: 100%;
     position: absolute;
-    background-color: #1b1b1b
+    background-color: #1b1b1b;
+    margin-left: -202px;
 }
 
 #slide-image {
-    width: 48px;
-    height: 48px;
+    width: 24px;
+    height: 24px;
+    float: left;
+    padding: 8px;
+    margin-left: 201px;
+}
+
+#slide-entries {
+    margin-top: 120px;
+    height: 75%;
 }
 
 #slide-menu-image-active {
-    display: none;
-    width: 100%;
-    height: 100%;
+    opacity: 0;
+    width: 32px;
+    height: 32px;
+    position: absolute;
 }
 
 #slide-menu-image-inactive {
-    width: 100%;
-    height: 100%;
+    opacity: 1;
+    width: 32px;
+    height: 32px;
+    position: absolute;
 }
 
 .slide-menu-entries{
     display: block;
     color: #cfcfcf;
-    width:250px;
     margin: 0px;
+    float: right;
+    text-align: right;
+    font-size: 20px;
+    font-family: Arial;
+    margin-left: 250px;
+    padding: 4px;
+    padding-left: 32px;
+    padding-right: 16px;
+    transition: 0.2s;
+    margin-right: 64px;
+}
+
+.slide-menu-entries:hover{
+    color: #6d6d6d;
+}
+
+.slide-menu-footer {
+    display: block;
+    width: 186px;
+    color: #606060;
+    margin: 0px;
+    float: right;
+    text-align: right;
+    font-size: 12px;
+    font-family: Arial;
+    padding: 4px;
+    padding-left: 32px;
+    padding-right: 16px;
+    transition: 0.2s;
+    margin-right: 64px;
+}
+
+.slide-menu-footer:hover{
+    color: #949494;
 }
